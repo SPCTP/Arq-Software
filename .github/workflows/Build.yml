@@ -19,7 +19,7 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v3
     - name: Build Comentarios.c 
-      run:  
+      run: |  
         gcc -c Main.c 
         gcc -o Main.exe Main.o
         ./Main.exe
