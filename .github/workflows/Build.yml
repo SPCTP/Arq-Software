@@ -22,6 +22,6 @@ jobs:
       run:  
         gcc -c Main.c 
         gcc -o Main.exe Main.o
-        ./Main.e
+        ./Main.exe
 
         
